@@ -1,5 +1,19 @@
-# springboot + JPA
+# springboot + JPA + Travis CI
 
-spring bootì™€ JPAë¥¼ ì‚¬ìš©í•´ ê°„ë‹¨í•œ íšŒì›ì •ë³´ CRUDë¥¼ í•  ìˆ˜ ìˆëŠ” í”„ë¡œì íŠ¸ì…ë‹ˆë‹¤. 
-- ì°¸ê³  ë¸”ë¡œê·¸ëŠ” https://shinsunyoung.tistory.com/28?category=327358 ì…ë‹ˆë‹¤
-- ì˜¤ë¥˜ ë˜ëŠ” ë°”ë€ ë¬¸ë²•ì€ ìˆ˜ì •í•´ì„œ ì‘ì„±í•˜ì˜€ìŠµë‹ˆë‹¤. 
+spring boot¿Í JPA¸¦ »ç¿ëÇØ °£´ÜÇÑ È¸¿øÁ¤º¸¸¦ CRUD ÇÒ ¼ö ÀÖ´Â ÇÁ·ÎÁ§Æ®ÀÔ´Ï´Ù. 
+- Âü°í ºí·Î±×´Â https://shinsunyoung.tistory.com/28?category=327358 ÀÔ´Ï´Ù
+- ¿À·ù ¶Ç´Â ¹Ù²ï ¹®¹ıÀº ¼öÁ¤ÇØ¼­ ÀÛ¼ºÇÏ¿´½À´Ï´Ù.
+
+ ## 1. Development Environment
+ 
+ - **OS** : Windows 10
+ - **Java Version** : OpenJDK 1.8.0_262
+ - **IDE** : eclipse
+ - **CI** : Travis CI
+ 
+ ## 2. Library
+ 
+ - Spring Boot (2.3.0)
+ - Lombok
+ - JPA
+ - H2
