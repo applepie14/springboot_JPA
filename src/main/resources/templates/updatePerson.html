@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title> SpringBoot : updatePerson </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<h1>사람 정보 수정하기(update)</h1>
+<form action="#" th:action="@{/person/updatePerson}" th:object="${person}" method="post">
+    <input type="hidden" th:field="${person.id}"/>
+    <p>Name : <input type="text" th:field="${person.name}"/></p>
+    <p>Password : <input type="text" th:field="${person.password}"/></p>
+    <p><input type="submit" value="수정하기"/></p>
+</form>
+</body>
+</html>
