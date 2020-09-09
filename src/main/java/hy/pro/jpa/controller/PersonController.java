@@ -36,7 +36,7 @@ public class PersonController {
 	public String addPagePerson(@ModelAttribute Person person, Model model) {
 		ser.createPerson(person);
 		model.addAttribute("persons", ser.getAllPerson());
-		return "result";
+		return "redirect:/person";
 	}
 	
 	@GetMapping("/person/delete/{id}")

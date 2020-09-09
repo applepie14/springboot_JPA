@@ -9,9 +9,11 @@ import hy.pro.jpa.model.Person;
 import hy.pro.jpa.repository.PersonRepository;
 import hy.pro.jpa.service.PersonService;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 
 @RequiredArgsConstructor
 @Service
+@Slf4j
 public class PersonServiceImpl implements PersonService {
 	
 	private final PersonRepository repo;
